@@ -1,7 +1,11 @@
 import Image from "next/image";
 import styles from '@/app/ui/styles/home.module.css';
 import { Inter, Roboto, Playfair_Display } from 'next/font/google';
+import type { Metadata } from 'next';
 
+export const metadata: Metadata = {
+  title: 'My NextJS Blog',
+};
 
 // 1. Configure your fonts
 const inter = Inter({ 
